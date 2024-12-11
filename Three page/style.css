@@ -28,7 +28,7 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-header .header-content h1 {
+header .header-content>h1 {
     margin: 0;
 }
 
@@ -52,7 +52,7 @@ header .logo #Just {
     margin-left: 50px;
 }
 
-img {
+.left-side>img {
     border-radius: 15px;
     width: 100%; /* Ensures the image is responsive */
     max-width: 500px; /* Limits the image size */
@@ -66,18 +66,18 @@ img {
     margin: 0 50px;
 }
 
-form h1 {
+form>h1 {
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-form label {
+form>label {
     font-size: 18px;
     display: block;
     margin: 10px 0 5px;
 }
 
-form input {
+form>input {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -86,7 +86,7 @@ form input {
     border-radius: 5px;
 }
 
-form button {
+form>button {
     padding: 10px 20px;
     background-color: #ff8c00;
     color: white;
@@ -101,7 +101,7 @@ form button:hover {
 }
 
 /* Footer */
-footer {
+.foote {
     background: #f4f4f4;
     padding: 10px;
     text-align: center;
@@ -109,12 +109,12 @@ footer {
     border-top: 2px solid #ccc;
 }
 
-footer a {
+.foote>a {
     color: #ff5722;
     text-decoration: none;
 }
 
-footer a:hover {
+.foote a:hover {
     text-decoration: underline;
 }
 

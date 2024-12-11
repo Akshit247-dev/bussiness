@@ -1,3 +1,8 @@
+/* >  :=child sibling */
+/* span_ :=descendant sibling */
+/* ~  := General sibling */
+/* +  =: Adjacent sibling */
+
 /* General Reset */
 * {
     margin: 0;
@@ -38,7 +43,7 @@ header {
     align-items: center;
 }
 
-.header-content h1 {
+.header-content>h1 {
     font-size: 24px;
     color: #ff5722;
     font-weight: bold;
@@ -48,18 +53,18 @@ header {
     color: blue;
 }
 
-.header-content nav {
+.header-content>nav{
     display: flex;
     gap: 20px;
 }
 
-.header-content nav a {
+.header-content nav+a {
     text-decoration: none;
     color: #555;
     font-size: 16px;
 }
 
-.header-content nav a:hover {
+.header-content nav>a:hover {
     color: #ff5722;
 }
 
@@ -103,27 +108,27 @@ main {
     text-align: center;
 }
 
-.advertise-section h2 {
+.advertise-section >h2 {
     font-size: 32px;
     color: #333;
     margin-bottom: 10px;
 }
 
-.advertise-section h2 span {
+.advertise-section >h2 span {
     color: #ff5722;
     font-weight: bold;
 }
 
-.advertise-section p {
+.advertise-section >p {
     font-size: 18px;
     margin-bottom: 20px;
 }
 
 .form {
     margin-bottom: 20px;
-}
+} 
 
-.form label {
+.form>label {
     display: block;
     font-size: 16px;
     margin-bottom: 5px;
@@ -132,7 +137,7 @@ main {
 .form-input {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 10px; 
 }
 
 input#Email {
@@ -142,7 +147,7 @@ input#Email {
     border-radius: 5px;
 }
 
-button {
+div>button {
     background: #ff5722;
     color: #fff;
     padding: 10px 15px;
@@ -174,14 +179,14 @@ button:hover {
     max-width: 200px;
 }
 
-.goal-item img {
+.goal-item+img {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
 /* Footer */
-footer {
+.foot {
     background: #f4f4f4;
     padding: 10px;
     text-align: center;
@@ -189,12 +194,13 @@ footer {
     border-top: 2px solid #ccc;
 }
 
-footer a {
+
+.foot a {
     color: #ff5722;
     text-decoration: none;
 }
 
-footer a:hover {
+.foot a:hover {
     text-decoration: underline;
 }
 
@@ -221,7 +227,7 @@ textarea#questions {
     resize: vertical;
 }
 
-.submit-btn {
+.submit>btn {
     background: #ff5722;
     color: white;
     padding: 10px 20px;
@@ -231,10 +237,9 @@ textarea#questions {
     font-size: 16px;
 }
 
-.submit-btn:hover {
+.submit>btn:hover {
     background: #e64a19;
 }
-/* grow-bussiness section */
 /* Grow Business Section */
 .grow-business-section {
     text-align: center; /* Centers all text inside the section */
