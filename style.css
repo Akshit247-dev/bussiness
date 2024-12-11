@@ -242,26 +242,26 @@ textarea#questions {
 }
 /* Grow Business Section */
 .grow-business-section {
-    text-align: center; /* Centers all text inside the section */
-    padding: 20px; /* Adds padding around the section */
-    margin: 20px auto; /* Centers the section horizontally */
-    max-width: 600px; /* Limits the width of the section */
-    background: #ffffff; /* Background color */
-    border: 1px solid #ddd; /* Light border */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+    padding: 20px; 
+    margin: 20px auto; 
+    max-width: 600px; 
+    background: #ffffff; 
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .grow-business-section h1 {
-    font-size: 28px; /* Larger font size for heading */
-    margin-bottom: 10px; /* Space below the heading */
-    color: #333; /* Darker text color */
+    font-size: 28px;  
+    margin-bottom: 10px; 
+    color: #333;     
 }
 
 .grow-business-section p {
-    font-size: 18px; /* Slightly smaller font size for paragraph */
-    margin-bottom: 20px; /* Space below the paragraph */
-    color: #666; /* Softer text color */
+    font-size: 18px;       
+    margin-bottom: 20px;   
+    color: #666;
 }
 
 /* Form Styles */
@@ -270,40 +270,40 @@ textarea#questions {
 }
 
 .form label {
-    font-size: 16px; /* Label font size */
-    display: block; /* Places label on its own line */
-    margin-bottom: 8px; /* Space below the label */
-    color: #333; /* Label text color */
+    font-size: 16px;        
+    display: block;        
+    margin-bottom: 8px;    
+    color: #333;        
 }
 
 .form-input {
-    display: flex; /* Aligns input and button in a row */
-    align-items: center; /* Centers input and button vertically */
-    gap: 10px; /* Space between input and button */
-    justify-content: center; /* Centers input and button horizontally */
+    display: flex; 
+    align-items: center;
+    gap: 10px; 
+    justify-content: center;
 }
 
 input#email {
-    padding: 10px; /* Adds space inside the input field */
-    font-size: 16px; /* Font size for input text */
-    border: 1px solid #ccc; /* Light border */
-    border-radius: 5px; /* Rounded corners for input */
-    flex: 1; /* Makes input field responsive */
-    max-width: 300px; /* Limits the width of the input field */
+    padding: 10px; 
+    font-size: 16px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    flex: 1;
+    max-width: 300px;
 }
 
 .get-started-btn {
-    background: #ff5722; /* Button background color */
-    color: white; /* Button text color */
-    padding: 10px 20px; /* Button padding */
-    border: none; /* Removes border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Adds a pointer on hover */
-    font-size: 16px; /* Font size for button text */
+    background: #ff5722; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 .get-started-btn:hover {
-    background: #e64a19; /* Darker button color on hover */
+    background: #e64a19;
 }
 
 
